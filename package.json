@@ -1,0 +1,20 @@
+{
+    "name": "nodejs-jest-customers-balancing",
+    "version": "1.0.0",
+    "main": "main.js",
+    "type": "module",
+    "private": true,
+    "scripts": {
+        "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+    },
+    "dependencies": {
+        "jest": "^26.6.3"
+    },
+    "jest": {
+        "testEnvironment": "jest-environment-node",
+        "transform": {},
+        "testMatch": [
+            "**/tests/customer_balancing_test.js"
+        ]
+    }
+}
